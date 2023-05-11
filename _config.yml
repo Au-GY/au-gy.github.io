@@ -50,9 +50,6 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I'm an undergraduate student at <b>SYSU</b> (Sun Yat-sen University), majoring in Software Engineering.
 
-  Research on adversarial attack towards AI computer vision models is what I'm proceeding currently in the TAI group, Inplus lab and I'm supervised by Professor Weibin Wu.
-  I'm also interested in NLP (natural language processing) and block chain.
-
   <mark>Python</mark>, <mark>Java</mark>, <mark>JavaScript</mark> and <mark>C/C++</mark> are my most skilled languages.
 
 

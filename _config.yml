@@ -54,24 +54,24 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Sun Yat-sen University
-  #       caption: 2020 - Present
-  #       sub_title: BEng Software Engineering
-  #       # quote: >
-  #       #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         *GPA*: 3.65/5.0
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Sun Yat-sen University
+        caption: 2020 - Present
+        sub_title: BEng Software Engineering
+        # quote: >
+        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          *GPA*: 3.65/5.0
 
-  #         *Awards*:
-  #         - Second Prize in SYSU-ICPC, 2022
-  #         - First prize in SYSU-ICPC Novice trial, 2022
+          *Awards*:
+          - Second Prize in SYSU-ICPC, 2022
+          - First prize in SYSU-ICPC Novice trial, 2022
 
-  #         *Language*:
-  #         - Chinese(Mandarin and Cantonese), English(TOEFL 98)
+          *Language*:
+          - Chinese(Mandarin and Cantonese), English(TOEFL 98)
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -96,22 +96,6 @@ content:
         description: | # this will include new lines to allow paragraphs
             This project is a RPC (Remote Procedure Call) program implemented with Java. The program provide relatively high preformance and compatibility with HTTP and ProtoBuf.
 
-
-      # - layout: top-middle
-      #   title: Super awesome project
-      #   link: github.com/sproogen
-      #   # link_text: Project Website
-      #   additional_links:
-      #     - title:  sproogen/modern-resume-theme
-      #       icon: fab fa-github
-      #       url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        # description: | # this will include new lines to allow paragraphs
-        #   I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
 # Footer
 footer_show_references: true

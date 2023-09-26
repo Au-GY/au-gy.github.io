@@ -54,47 +54,47 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Sun Yat-sen University
-        caption: 2020 - Present
-        sub_title: BEng Software Engineering
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          *GPA*: 3.65/5.0
-
-          *Awards*:
-          - Second Prize in SYSU-ICPC, 2022
-          - First prize in SYSU-ICPC Novice trial, 2022
-
-          *Language*:
-          - Chinese(Mandarin and Cantonese), English(TOEFL 98)
-
-  # - title: Projects # Title for the section
+  # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
   #     - layout: left
-  #       title: Blog Community
-  #       link: https://gitee.com/gyau/intermediate-training-blog
-  #       link_text: Gitee Address
-  #       description:
-  #           The front end of the project uses the Ant Design UI library, combined with the pluggable enterprise-class react application framework umi, to achieve the interface UI design and project convention-based routing. The project's back end uses SpringBoot to handle HTTP interactions and the MyBatis framework to generate and eventually execute sql statements.
-
-  #     - layout: left
-  #       title: Citi Cup
-  #       link: https://www.citigroup.com/china/csts/EducationProgram/AboutEducation_CFCcn.html
-  #       link_text: Official Website
-  #       sub_title: Product Manager & Developer
+  #       title: Sun Yat-sen University
+  #       caption: 2020 - Present
+  #       sub_title: BEng Software Engineering
+  #       # quote: >
+  #       #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
   #       description: | # this will include new lines to allow paragraphs
-  #           This project combines financial knowledge graph and natural language processing technologies to build a graph by analyzing public reports of companies to obtain relevant information and use the resulting information to rate different companies and institutions on ESG.
+  #         *GPA*: 3.65/5.0
 
-  #     - layout: left
-  #       title: RPCpico
-  #       description: | # this will include new lines to allow paragraphs
-  #           This project is a RPC (Remote Procedure Call) program implemented with Java. The program provide relatively high preformance and compatibility with HTTP and ProtoBuf.
+  #         *Awards*:
+  #         - Second Prize in SYSU-ICPC, 2022
+  #         - First prize in SYSU-ICPC Novice trial, 2022
+
+  #         *Language*:
+  #         - Chinese(Mandarin and Cantonese), English(TOEFL 98)
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Blog Community
+        link: https://gitee.com/gyau/intermediate-training-blog
+        link_text: Gitee Address
+        description:
+            The front end of the project uses the Ant Design UI library, combined with the pluggable enterprise-class react application framework umi, to achieve the interface UI design and project convention-based routing. The project's back end uses SpringBoot to handle HTTP interactions and the MyBatis framework to generate and eventually execute sql statements.
+
+      - layout: left
+        title: Citi Cup
+        link: https://www.citigroup.com/china/csts/EducationProgram/AboutEducation_CFCcn.html
+        link_text: Official Website
+        sub_title: Product Manager & Developer
+        description: | # this will include new lines to allow paragraphs
+            This project combines financial knowledge graph and natural language processing technologies to build a graph by analyzing public reports of companies to obtain relevant information and use the resulting information to rate different companies and institutions on ESG.
+
+      - layout: left
+        title: RPCpico
+        description: | # this will include new lines to allow paragraphs
+            This project is a RPC (Remote Procedure Call) program implemented with Java. The program provide relatively high preformance and compatibility with HTTP and ProtoBuf.
 
 
       # - layout: top-middle
